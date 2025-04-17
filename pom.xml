@@ -11,7 +11,7 @@
 	<groupId>com.spring</groupId>
 	<artifactId>inventoryfinal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>supplychainfinal</name>
+	<name>inventory</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -85,6 +85,13 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.20.0</version>
+			</plugin>
+
+
 		</plugins>
 	</build>
 
